@@ -1,0 +1,85 @@
+body {
+    background: linear-gradient(90deg, #f8b195 0%, #f67280 50%, #c06c84 100%);
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-right: 10px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  select,
+  input[type="number"] {
+    margin-right: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: #444;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  tfoot td {
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  .actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .actions button {
+    margin-left: 5px;
+  }
+  
+  .background-shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url(https://picsum.photos/id/237/1200/1200) center center fixed;
+    background-size: cover;
+    opacity: 0.5;
+    mix-blend-mode: screen;
+    z-index: -1;
+  }
